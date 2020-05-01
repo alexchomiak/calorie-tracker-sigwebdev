@@ -21,6 +21,7 @@ function App() {
 
     return (
         <div className="App">
+            <h1>Calorie Tracking App</h1>
             {entryFormShown && (
                 <CalorieForm
                     submitEntry={(entry: Entry) => {
